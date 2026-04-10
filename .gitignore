@@ -1,1 +1,5 @@
 .DS_Store
+cpp/**/*.out
+cpp/**/a.out
+cpp/**/tempCodeRunnerFile
+cpp/**/valid-parentheses

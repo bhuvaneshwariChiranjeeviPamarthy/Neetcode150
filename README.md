@@ -46,6 +46,23 @@ Example:
 2. Paste the accepted C++ solution into the matching topic folder here.
 3. Update `progress.md` so the repo stays easy to browse.
 
+## Local Testing Workflow
+
+This repo uses a shared `input.txt` and `output.txt` at the project root for local runs in VS Code.
+
+- Put reusable problem-specific test cases next to the solution file.
+- Use the naming pattern `problem-name-tests.txt`.
+- Copy the test cases you want to try into `input.txt`.
+- Run the current C++ file from VS Code.
+- Check `output.txt` for the result.
+
+Example:
+
+- `cpp/stack/valid-parentheses.cpp`
+- `cpp/stack/valid-parentheses-tests.txt`
+- `input.txt`
+- `output.txt`
+
 ## Notes
 
 - Keep the file name close to the LeetCode problem title.
