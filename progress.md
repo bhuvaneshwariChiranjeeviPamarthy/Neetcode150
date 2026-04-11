@@ -31,7 +31,7 @@ Legend:
 
 - [x] Valid Parentheses
 - [x] Min Stack
-- [ ] Evaluate Reverse Polish Notation
+- [x] Evaluate Reverse Polish Notation
 - [ ] Generate Parentheses
 - [ ] Daily Temperatures
 - [ ] Car Fleet
