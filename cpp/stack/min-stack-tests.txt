@@ -1,0 +1,14 @@
+["MinStack","push","push","push","getMin","pop","top","getMin","push","getMin","top"]
+[[],[-2],[0],[-3],[],[],[],[],[-5],[],[]]
+
+["MinStack","push","push","getMin","push","getMin","pop","getMin","pop","top","getMin"]
+[[],[5],[3],[],[3],[],[],[],[],[5],[]]
+
+["MinStack","push","push","push","getMin","pop","getMin","pop","getMin","top"]
+[[],[2],[2],[1],[],[],[],[],[],[2]]
+
+["MinStack","push","push","push","top","getMin","pop","top","getMin"]
+[[],[10],[20],[30],[],[],[],[],[]]
+
+["MinStack","push","push","push","getMin","pop","getMin","push","getMin","top"]
+[[],[-1],[-2],[-2],[],[],[],[-3],[],[]]
