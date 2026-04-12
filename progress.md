@@ -34,7 +34,7 @@ Legend:
 - [x] Evaluate Reverse Polish Notation
 - [ ] Generate Parentheses
 - [x] Daily Temperatures
-- [ ] Car Fleet
+- [x] Car Fleet
 - [ ] Largest Rectangle in Histogram
 
 ## Binary Search
