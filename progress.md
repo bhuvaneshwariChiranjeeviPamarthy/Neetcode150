@@ -33,7 +33,7 @@ Legend:
 - [x] Min Stack
 - [x] Evaluate Reverse Polish Notation
 - [ ] Generate Parentheses
-- [ ] Daily Temperatures
+- [x] Daily Temperatures
 - [ ] Car Fleet
 - [ ] Largest Rectangle in Histogram
 
