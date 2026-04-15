@@ -35,7 +35,7 @@ Legend:
 - [ ] Generate Parentheses
 - [x] Daily Temperatures
 - [x] Car Fleet
-- [ ] Largest Rectangle in Histogram
+- [x] Largest Rectangle in Histogram
 
 ## Binary Search
 
