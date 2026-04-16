@@ -4,27 +4,28 @@ using namespace std;
 
 class KthLargest {
 private:
-int k;
-priority_queue<int, vector<int>, greater<int>> minHeap; //MinHeap to store the K largest elements.
+    int k;
+    // Min-heap stores only the k largest values seen so far.
+    priority_queue<int, vector<int>, greater<int>> minHeap;
 
 public:
     KthLargest(int k, vector<int>& nums) {
         this->k = k;
         // Build heap with only k largest elements
-        for(auto i: nums){
+        for (auto i : nums) {
             minHeap.push(i);
             // If size exceeds k, remove smallest
-            if(minHeap.size() > k){
+            if (minHeap.size() > k) {
                 minHeap.pop();
             }
         }
     }
-    
+
     int add(int val) {
         // Add new value to heap
         minHeap.push(val);
         // Maintain only k elements in heap
-        while(minHeap.size() > k){
+        while (minHeap.size() > k) {
             minHeap.pop();
         }
         // Top of min-heap = kth largest element
@@ -51,7 +52,6 @@ public:
 //
 // Space:
 // O(k)
-// Worst case space can be O((n-k)logk)
 
 /**
  * Your KthLargest object will be instantiated and called as such:
